@@ -1,5 +1,3 @@
-const time = new Date()
-
 // random array generator
 function randomArrayGenerator(numberOfElements) {
     newArray = [] // create array
