@@ -1,5 +1,3 @@
-const algos = require('./algos')
-
 // timeout for console program
 const sleep = (milliseconds) => {
     return new Promise(resolve => setTimeout(resolve, milliseconds)).then(resolve => { return resolve })
