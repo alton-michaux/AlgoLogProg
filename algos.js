@@ -9,6 +9,7 @@ function randomArrayGenerator(numberOfElements) {
             newArray.push(element)
         }
     }
+
     return newArray
 }
 
@@ -65,6 +66,7 @@ function binarySearch(array, target) { // O(n)
             end = middleIndex - 1
         }
     }
+
     // if no match is found
     return -1
 }
@@ -86,6 +88,7 @@ function insertionSort(array) { // O(n^2)
 
         array[lastIndex + 1] = insertionValue // array[0] = 98, array[2] = 943, array[-1] = 1
     }
+
     return array
 }
 
