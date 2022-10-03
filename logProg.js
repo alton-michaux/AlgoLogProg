@@ -33,11 +33,11 @@ async function sortLog(array) {
 
     let start = performance.now()
 
-    let sortedArray = algos.quickSort(array)
+    let sortedArray = algos.insertionSort(array)
     
     let finish = performance.now()
 
-    console.log('\x1b[33m%s\x1b[0m', `quickSort done in ${finish - start} milliseconds`)
+    console.log('\x1b[33m%s\x1b[0m', `insertionSort done in ${finish - start} milliseconds`)
 
     console.log(`Array sorted: [${sortedArray}]`)
 
