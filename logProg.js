@@ -33,11 +33,11 @@ async function sortLog(array) {
 
     let start = performance.now()
 
-    let sortedArray = algos.insertionSort(array)
+    let sortedArray = algos.quickSort(array)
     
     let finish = performance.now()
 
-    console.log('\x1b[33m%s\x1b[0m', `insertionSort done in ${finish - start} milliseconds`)
+    console.log('\x1b[33m%s\x1b[0m', `quickSort done in ${finish - start} milliseconds`)
 
     console.log(`Array sorted: [${sortedArray}]`)
 
@@ -49,7 +49,7 @@ async function searchLog(array) {
 
     let value = Math.floor(Math.random() * 50)
 
-    console.log(`Searching for the number ${value}`)
+    console.log(`Searching for the number ${value}...`)
 
     await sleep(2000)
 
