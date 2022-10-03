@@ -21,3 +21,18 @@ Just a fun little program that I use to practice writing algorithms and write te
 ### quickSort
   - time complexity: `O(n log n)`
   - last reading: `1.1711000204086304 milliseconds`
+
+## Test Results
+```
+ PASS  ./algos.test.js
+  ✓ generates a random array (3 ms)
+  ✓ searches an array recursively (2 ms)
+  ✓ searches an array iteratively (3 ms)
+  ✓ sorts an array (3 ms)
+  ✓ uses quicksort to sort an array (4 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       5 passed, 5 total
+Snapshots:   0 total
+Time:        1.179 s
+```
