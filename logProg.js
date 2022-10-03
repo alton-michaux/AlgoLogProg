@@ -37,13 +37,13 @@ async function sortLog(array) {
 
     let start = performance.now()
 
-    let sortedArray = algos.quickSort(array)
+    let sortedArray = algos.insertionSort(array)
     
     let finish = performance.now()
 
     await sleep(2000)
 
-    console.log('\x1b[33m%s\x1b[0m', `quickSort done in ${finish - start} milliseconds`)
+    console.log('\x1b[33m%s\x1b[0m', `insertionSort done in ${finish - start} milliseconds`)
 
     await sleep(2000)
 
@@ -63,13 +63,13 @@ async function searchLog(array) {
 
     let start = performance.now()
 
-    let search = algos.binarySearch(array, value)
+    let search = algos.recursiveBinarySearch(array, value)
     
     let finish = performance.now()
 
     await sleep(2000)
 
-    console.log('\x1b[33m%s\x1b[0m', `binarySearch done in ${finish - start} milliseconds`)
+    console.log('\x1b[33m%s\x1b[0m', `recursiveBinarySearch done in ${finish - start} milliseconds`)
 
     await sleep(2000)
 

@@ -8,7 +8,7 @@ Just a fun little program that I use to practice writing algorithms and write te
 
 ### recursiveBinarySearch
   - time complexity: `O(log n)`
-  - last reading: ``
+  - last reading: `0.20770001411437988 milliseconds`
 
 ### binarySearch
   - time complexity: `O(n)`
@@ -16,7 +16,7 @@ Just a fun little program that I use to practice writing algorithms and write te
 
 ### insertionSort
   - time complexity: `O(n^2)`
-  - last reading: ``
+  - last reading: `0.26159989833831787 milliseconds`
 
 ### quickSort
   - time complexity: `O(n log n)`
