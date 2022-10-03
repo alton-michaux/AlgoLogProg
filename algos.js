@@ -119,12 +119,12 @@ function quickSort(array) {
     }
 }
 
-// s = 'abbc'
-// b = 'cbbabcdabbdfabcb'
+s = 'abbc'
+b = 'cbbabcdabbdfabcb'
 
-// function string_permutation(s, b) {
+function string_permutation(s, b) {
     
-// }
+}
 
 
 module.exports = { recursiveBinarySearch, binarySearch, insertionSort, randomArrayGenerator, quickSort }

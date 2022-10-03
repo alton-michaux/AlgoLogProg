@@ -17,9 +17,13 @@ async function buildLog(){
 
     let finish = performance.now()
 
+    await sleep(2000)
+
     console.log('\x1b[33m%s\x1b[0m', `randomArrayGenerator done in ${finish - start} milliseconds`)
 
-    console.log(`Array created: [${array}]`)
+    await sleep(2000)
+
+    console.log('\x1b[32m%s\x1b[0m', `Array created: [${array}]`)
 
     sortLog(array)
 }
@@ -37,9 +41,13 @@ async function sortLog(array) {
     
     let finish = performance.now()
 
+    await sleep(2000)
+
     console.log('\x1b[33m%s\x1b[0m', `quickSort done in ${finish - start} milliseconds`)
 
-    console.log(`Array sorted: [${sortedArray}]`)
+    await sleep(2000)
+
+    console.log('\x1b[32m%s\x1b[0m', `Array sorted: [${sortedArray}]`)
 
     searchLog(sortedArray)
 }
@@ -59,7 +67,11 @@ async function searchLog(array) {
     
     let finish = performance.now()
 
+    await sleep(2000)
+
     console.log('\x1b[33m%s\x1b[0m', `binarySearch done in ${finish - start} milliseconds`)
+
+    await sleep(2000)
 
     parseLog(search, value)
 }
@@ -69,7 +81,7 @@ async function parseLog(search, value) {
         console.log('\x1b[31m%s\x1b[0m', `${value} is not present in the array`)
     }
     else {
-        console.log('Found it.')
+        console.log('Found it!')
 
         await sleep(1000)
 
